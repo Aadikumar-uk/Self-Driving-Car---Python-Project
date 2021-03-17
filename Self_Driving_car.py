@@ -1,4 +1,7 @@
 import pygame
 pygame.init()
-window = pygame.disply.set_mode((1200, 400))
+window = pygame.display.set_mode((1200, 400))
 track = pygame.image.load('track1.png')
+while True:
+    window.blit(track, (0, 0))
+    pygame.disply.update()
