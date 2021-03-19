@@ -6,5 +6,5 @@ car = pygame.image.load('tesla.png')
 car = pygame.transform.scale(car, (30, 60))
 while True:
     window.blit(track, (0, 0))
-    window.blit(car, (0, 0))
+    window.blit(car, (150, 300))
     pygame.display.update()
